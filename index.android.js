@@ -19,10 +19,10 @@ export default class coba2 extends Component {
           Selamat Datang di React Native!
         </Text>
         <Text style={styles.instructions}>
-          Ini adalah contoh RN + CodePush
+          Warna backgroundnya jadi hitam kan?
         </Text>
         <Text style={styles.instructions}>
-          Ini nanti akan saya ubah warna backgroundnya jadi hitam
+          Gimana? Keren gak tuh? :)
         </Text>
       </View>
     );
@@ -34,16 +34,17 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'black',
   },
   welcome: {
+    color: 'white',
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
   },
   instructions: {
     textAlign: 'center',
-    color: 'red',
+    color: 'white',
     marginBottom: 5,
   },
 });
